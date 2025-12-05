@@ -14,7 +14,7 @@ int main() {
     int tries = 0;
 
     printf("I have picked a random number between 1 and 100.\n");
-    printf("can you guess it?");
+    printf("Can you guess it?\n");
 
     // true - infinite loop
     while(1) {
@@ -25,7 +25,7 @@ int main() {
         if (guess == secret) {
             printf("\nCongratulations.You got it!\n");
             printf("Your number was %d\n",secret);
-            print("You needed %d tries!",tries);
+            printf("You needed %d tries!",tries);
             break;
 
         }
